@@ -12,3 +12,4 @@ Cargo.lock
 proptest-regressions/*
 rust-toolchain
 vendor
+!Makefile
