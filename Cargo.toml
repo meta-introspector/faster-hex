@@ -3,7 +3,7 @@ name = "faster-hex"
 version = "0.10.0"
 authors = ["zhangsoledad <787953403@qq.com>"]
 edition = "2018"
-rust-version = "1.61.0"
+# rust-version = "1.61.0"
 keywords = ["simd", "hex", "no-std"]
 license = "MIT"
 description = "Fast hex encoding."
@@ -50,4 +50,6 @@ harness = false
 [lints.clippy]
 undocumented_unsafe_blocks = "warn"
 
-[workspace]
+#[workspace]
+[package.metadata.cargo2nix]
+cargo2nix_path = "/data/data/com.termux.nix/files/home/pick-up-nix2/vendor/rust/cargo2nix/target/debug/cargo2nix"

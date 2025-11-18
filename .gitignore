@@ -13,3 +13,4 @@ proptest-regressions/*
 rust-toolchain
 vendor
 !Makefile
+process-repo.log
